@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSEvents - Custom Event Countdown</title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div id="header">
+        <h1>JS Events</h1>
+        <h3>Custom Event Countdown</h3>
+    </div>
+    <div id="event_creator">
+        <label for="event_creator_name">
+            Event Name
+            <input id="event_creator_name" type="text">
+        </label>
+        <br><br>
+        <label for="event_creator_date">
+            Event Date
+            <input id="event_creator_date" type="date">
+        </label>
+        <br><br>
+        <label for="event_creator_time">
+            Event Time
+            <input id="event_creator_time" type="time">
+        </label>
+        <br>
+        <button class="button" id="event_creator_create_button">Create</button>
+    </div>
+    <div id="event_viewer">
+        <h1 id="event_name"></h1>
+        <h1 id="event_time"></h1>
+    </div>
+</body>
+</html>

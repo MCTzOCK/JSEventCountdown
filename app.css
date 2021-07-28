@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+#header {
+    text-align: center;
+}
+
+#event_creator {
+    text-align: center;
+}
+
+#event_viewer {
+    text-align: center;
+}
+
+input {
+    color: #000;
+}
+
+.button {
+    margin: 2rem;
+    background-color: transparent;
+    border: #fff solid;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #1c1c1c;
+}
